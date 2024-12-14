@@ -13,6 +13,7 @@ public class MessageController {
 	@GetMapping("/welcome")
 	public String getMssg() {
 		log.info("getMsg ()->executed!!!!!!!");
+		System.out.println("This is get message method");
 		return "Welcome To IT";
 	}
 	
