@@ -13,6 +13,9 @@ public class MessageController {
 	@GetMapping("/welcome")
 	public String getMssg() {
 		log.info("getMsg ()->executed!!!!!!!");
+
+		int b=0;
+		System.out.println("This is get message method");
 		String st="Hello Anil you can do anything";
 		return "Welcome To IT";
 		
