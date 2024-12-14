@@ -15,4 +15,9 @@ public class MessageController {
 		log.info("getMsg ()->executed!!!!!!!");
 		return "Welcome To IT";
 	}
+	
+	@GetMapping("/greet")
+    public String greetMsg() {
+    	return "Good Evening Anil";
+    }	
 }
