@@ -13,11 +13,10 @@ public class MessageController {
 	@GetMapping("/welcome")
 	public String getMssg() {
 		log.info("getMsg ()->executed!!!!!!!");
-<<<<<<< HEAD
+
 		int b=0;
-=======
 		System.out.println("This is get message method");
->>>>>>> cb522f01f36e93c3cc7b0f658d0b71e302deb7de
+		String st="Hello Anil you can do anything";
 		return "Welcome To IT";
 		
 	}
